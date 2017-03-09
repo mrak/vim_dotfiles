@@ -30,7 +30,7 @@ Plug 'jergason/scala.vim'
 Plug 'jgdavey/vim-turbux'
 Plug 'jtratner/vim-flavored-markdown'
 Plug 'kchmck/vim-coffee-script'
-Plug 'kien/ctrlp.vim'
+Plug 'ctrlpvim/ctrlp.vim', { 'do': 'curl -L https://github.com/BurntSushi/ripgrep/releases/download/0.4.0/ripgrep-0.4.0-x86_64-unknown-linux-musl.tar.gz \| tar -Oxvzf - ripgrep-0.4.0-x86_64-unknown-linux-musl/rg > ~/bin/rg && chmod +x ~/bin/rg' }
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'markcornick/vim-bats'
 Plug 'mattn/emmet-vim'
